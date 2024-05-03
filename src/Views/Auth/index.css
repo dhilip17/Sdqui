@@ -1,0 +1,42 @@
+#row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  margin-left: 630px;
+}
+
+.main_content {
+  padding-top: 30vh;
+  text-align: center;
+}
+.main_app_heading {
+  margin-top: 6px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 5px !important;
+}
+.logo_span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.login_container {
+  height: 100vh;
+  background-size: cover;
+}
+.ip {
+  border-radius: 6px;
+  width: 300px;
+}
+.error_div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

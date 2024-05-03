@@ -1,0 +1,149 @@
+{
+  "CM": {
+    "CMSPID": "Concomitant Medication Identifier",
+    "CMTRT": "Concomitant Medication Term",
+    "CMDECOD": "Standardized Medication Name",
+    "CMSTDTC": "Concomitant Medication Start date",
+    "CMENDTC": "Concomitant Medication End date",
+    "CMONGO": "Concomitant Medication Ongoing",
+    "CMAENO": "Related Adverse event Number",
+    "CMDOSTOT": "Concomitant Medication dose",
+    "CMDOSE": "Concomitant Medication dose",
+    "CMDOSU": "Concomitant Medication dose unit",
+    "CMDOSFRQ": "Concomitant Medication Dose Frequency",
+    "CMFREQ": "Concomitant Medication Frequency",
+    "CMROUTE": "Concomitant Medication route",
+    "CMINDC": "Concomitant Medication Indication",
+    "CMDU": "Concomitant Medication Dose Unit"
+  },
+  "DD": {
+    "DDAENO": "Related Adverse Event Id",
+    "DTHDTC": "Date of Death",
+    "DDDESC": "Description of Finding",
+    "DEATHCAU": "Death Cause"
+  },
+  "EC": {
+    "EXREFID": "Dose Record Number",
+    "EXADJ": "Reason for Dose Adjustment",
+    "EXTRT": "Treatment Name",
+    "EXDOSE": "Dose",
+    "EXSTDTC": "Dose Start Date",
+    "EXENDTC": "Dose End Date",
+    "EXAENO": "Adverse event with consistent Adverse Event Identifier",
+    "EXDOSU": "Dose Unit",
+    "EXDOSFRQ": "Dose Frequency",
+    "EXDOSTOT": "Total Daily Dose",
+    "EXROUTE": "Route",
+    "EXDOSADJ": "Was the dose adjusted?",
+    "formname": "Form Name",
+    "EXCAT": "Category of Treatment",
+    "EXSTTIM": "Dose Time Date",
+    "DOSE_CHANGE": "Dose Changed?"
+  },
+  "LB": {
+    "visit_nm": "Visit Name",
+    "LBTIM": "Lab Time",
+    "RecordDate": "Date of Sample",
+    "AnalyteName": "Lab Test or Examination Name",
+    "LBCAT": "Lab panel Name",
+    "LBTEST": "Lab Test or Examination Name",
+    "LBORRES": "Lab Result",
+    "LBORRESU": "Lab Units",
+    "LBORNRHI": "Lab Normal Range High",
+    "LBORNRLO": "Lab Normal Range Low",
+    "LBCLSIG": "Was this result clinically significant?",
+    "LBDTC": "Lab Sample collection date",
+    "LBTPT": "Time of Specimen Collection",
+    "LBTOXGR": "Programmed Toxicity grade",
+    "programmed_CTCAE": "CTCAE Grade"
+  },
+  "MH": {
+    "MHTERM": "Medical History Term",
+    "MHSTDTC": "Medical History Start Date",
+    "MHENDTC": "Medical History End Date",
+    "MHONGO": "Medical History ongoing",
+    "MHTOXGR": "Toxicity Grade at the time of consent",
+    "MHDECOD": "Medical History Term Coded",
+    "MHAENO": "Related Medical History Number",
+    "MHCONTRT": "Concomitant or Additional Trtmnt Given"
+  },
+  "AE": {
+    "AESPID": "Adverse Event Identifier",
+    "AESTDTC": "Adverse Event Start Date",
+    "AEENDTC": "Adverse Event End Date",
+    "AEONGO": "Is the Adverse Event Still Ongoing",
+    "AETOXGR": "Toxicity grade",
+    "AEACN": "Action taken with treatment",
+    "AEACNOTH": "Other Action Taken",
+    "AEREL": "Event Related to treatment",
+    "AEDECOD": "Dictionary coded term",
+    "AECONTRT": "Concomitant or additional treatment given?",
+    "AESEV": "Adverse Event Severity",
+    "AESER": "Serious Event",
+    "AETERM": "Adverse Event Term"
+  },
+
+  "CECISR": {
+    "days_from_cont": "Calculated Days from Contact",
+    "y_cedtc_004": "Date of Unplanned Assessment"
+  },
+  "FAFUC": {
+    "dov": "Date of Unplanned Visit",
+    "faorres_fucdat_009": "Date of Contact",
+    "faorres_fucout_009": "Contact Outcome"
+  },
+  "X_SAS": { "suppdm_substudy_001": "Sub Study Selection" },
+  "VS": { "vsdtc_001": "Date of Unplanned Vitals" },
+  "DM": { "sex_001": "eCRF-Sex", "sitemnemonic_dm": "Site" },
+  "IRT": {
+    "randomization_date": "IVRS-Randomization Date",
+    "randomization_number": "IVRS-Randomization Number",
+    "sitemnemonic_irt": "IVRS-Site",
+    "subject status": "IVRS-Subject Status",
+    "subjid": "IVRS-SSID"
+  },
+  "DS": {
+    "dsdecod_001": "Disposition Status",
+    "dsstdtc_001_dts": "Disposition Date",
+    "formrefname": "Disposition Form"
+  },
+  "DS4": { "dsdecod_001": "eCRF-Status" },
+  "SLOPD": { "x_ds_stat_001": "eCRF-Subject Status" },
+  "FAVSD": {
+    "ceendtc_011": "Reaction Stop Date",
+    "ceoccur_011": "Reaction Present",
+    "ceterm_011": "Reaction",
+    "visit_nm": "CRF Visit Name",
+    "x_ongo_011": "Reaction Ongoing?"
+  },
+  "FAVSD012": {
+    "ediary_last": "Last E-diary Date",
+    "visit_nm": "E-diary Visit Name",
+    "x_vsdsday_012": "Last E-diary Study Day"
+  },
+  "TRIG": { "r_trigresp3_001": "Age Group" },
+  "MBMIB": {
+    "y_mbdtc_002": "Actual Date of Collection",
+    "mbspec_002": "Specimen Type,",
+    "mbloc_002": "Specimen Collection Location",
+    "dival_tradenam_002": "Trade Name,",
+    "dival_tradenam_oth_002": "Trade Name Other Specify",
+    "mborres_002": "Test Result,"
+  },
+  "QSPGI": {
+    "qscat_033": "ePRO - Category",
+    "qsdtc_033_dts": "ePRO - Date",
+    "visit_nm": "ePRO - Visit"
+  },
+  "QSEOR": {
+    "qscat_109": "ePRO - Category",
+    "qsdtc_109_dts": "ePRO - Date",
+    "visit_nm": "ePRO - Visit"
+  },
+  "QSE": {
+    "qscat_011": "ePRO - Category",
+    "qsdtc_011_dts": "ePRO - Date",
+    "visit_nm": "ePRO - Visit"
+  },
+  "SV": { "svstdtc_001_dts": "CRF - Date", "visit_nm": "CRF - Visit" }
+}

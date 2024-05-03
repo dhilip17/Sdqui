@@ -29,9 +29,9 @@ function QueryGen() {
     var url_link = "";
     setLoading(true);
     if (toggleValue == true) {
-      url_link = "https://8cdb-198-24-35-210.ngrok-free.app/predict_llama/";
+      url_link = "https://02dc5620c1.ngrok.io/predict_llama/";
     } else {
-      url_link = "https://8cdb-198-24-35-210.ngrok-free.app/predict_model/";
+      url_link = "https://02dc5620c1.ngrok.io/predict_model/";
     }
 
     try {
